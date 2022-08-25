@@ -2,7 +2,7 @@
 
 .center{text-align: center;}
 .promocao{font-size: 26px; color: black;font-family: Impact;}
-.border{border-radius: 30px}
+
 .color5 {color: #b5f2f9;}
 .color2 {color: #102442;}
 .fonte{font-family: 'Josefin Sans', sans-serif; font-size: 20px;}
@@ -15,7 +15,6 @@
 .texto{text-align: center;font-family: 'Josefin Sans', sans-serif; font-size: 24px; margin-top: 40px;}
 .drop{border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;}
 .borderCont{border-radius: 10px;}
-.borderDescri{border: solid 1px black; border-radius: 5px;}
 .italico{font-family: cursive; font-style: italic;}
 .button{width: 150px; height: 40px; border-radius: 10px; font-family: 'Josefin Sans', sans-serif; font-size: 20px;}
 .box{
@@ -65,11 +64,18 @@ hr{border: solid 1px black;}
 textarea{width: 450px; height: 150px;border-radius: 10px;}
 h3{font-family: 'Berkshire Swash', cursive; font-size: 72px;text-align: center; color: black;}
 p{font-family: 'Josefin Sans', sans-serif; font-size: 22px;}
-footer{margin-top: 15px; background-color: gray; width: 100%; padding-top: 10px; font-family: 'Josefin Sans', sans-serif; text-align: center; font-weight: 500;}
+footer{
+    margin-top: 15px; 
+    background-color: gray; 
+    width: 100%; 
+    padding-top: 10px; 
+    font-family: 'Josefin Sans', sans-serif; 
+    text-align: center; 
+    font-weight: 500;
+}
 article{margin: 40px;}
 .boxShadow{box-shadow: 10px 10px 10px 10px grey; width: 275px; height: 275px;}
 input{width: 450px;height: 40px; border-radius: 10px;margin-bottom: 10px;}
-.footer{font-family: 'Josefin Sans', sans-serif; font-size: 18px;}
 .h1{font-family: 'Josefin Sans', sans-serif; font-size: 40px; text-align: center;}
 .promo{
     width: 100%; 
@@ -94,7 +100,7 @@ input{width: 450px;height: 40px; border-radius: 10px;margin-bottom: 10px;}
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     -webkit-transform: scale(1.05); transform: scale(1.04);
 }
-.cityFooter{text-align: center;font-family: 'Berkshire Swash', cursive; font-size: 28px;}
+.ctyFooter{text-align: center;font-family: 'Berkshire Swash', cursive; font-size: 28px;}
 .pacote-viagem{
     text-align: center;
     font-family: 'Berkshire Swash', cursive; 
@@ -128,3 +134,64 @@ span:hover + .algum{
 .price{font-family: 'Josefin Sans', sans-serif; font-size: 24px; color: #102442; font-weight: 600;}
 .icons{width: 16px; height: 16px;}
 .payment{width: 36px; height: 36px; margin: 5px;}
+
+#manBox{
+    border-top: solid 2px black;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px gray;
+}
+
+main article div img{
+    border-radius: 10%; 
+    width: 100%; 
+    height: auto;
+    box-shadow: 5px 10px 18px black;
+    border: solid 4px black;
+}
+
+main section div #Foto{
+    border-radius: 10%; 
+    width: 100%; 
+    height: auto;
+    box-shadow: 5px 10px 18px black;
+    border: solid 4px black;
+}
+
+main #mainBox{
+    border-top: solid 2px black;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px gray;
+}
+
+footer div .cityFooter{
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive; 
+    font-size: 28px;
+}
+
+footer div span{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 18px;
+    font-weight: 500;
+}
+
+body header nav div a button{
+    transition: all 0.5s; 
+    cursor: pointer;
+}
+
+body header nav div a button:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: scale(1.05); transform: scale(1.04);
+}
