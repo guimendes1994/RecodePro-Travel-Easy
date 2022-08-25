@@ -188,6 +188,8 @@ footer div span{
 body header nav div a button{
     transition: all 0.5s; 
     cursor: pointer;
+    width: 130px;
+    height: 40px;
 }
 
 body header nav div a button:hover{
