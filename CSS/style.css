@@ -1,9 +1,15 @@
+/* Global ===========*/
+:root{
+    --blue: #102442;
+}
+
+
 /* --------- CLASS ------------*/
 
 .center{text-align: center;}
 .promocao{font-size: 26px; color: black;font-family: Impact;}
 
-.color5 {color: #b5f2f9;}
+
 .color2 {color: #102442;}
 .fonte{font-family: 'Josefin Sans', sans-serif; font-size: 20px;}
 .borderFoto{border-radius: 10px; border: solid 1px black;}
@@ -55,8 +61,8 @@
 
 /* ---------- TAGS -----------*/
 
-button{border-radius: 15px; background-color: #102442; color:white; border: 15px; width: 200px; height: 50px; box-shadow: 5px 5px 5px 5px black; font-family: 'Josefin Sans', sans-serif; font-size: 22px;}
-body{background-color: whitesmoke; margin-top: 10px;}
+buton{border-radius: 15px; background-color: #102442; color:white; border: 15px; width: 200px; height: 50px; box-shadow: 5px 5px 5px 5px black; font-family: 'Josefin Sans', sans-serif; font-size: 22px;}
+
 nav{background-color: transparent; color: black; border-radius: 5px; height: 90px; font-family: 'Josefin Sans', sans-serif; font-weight: 400; font-size: 22px;border-bottom: solid 2px black;}
 a{color: black;}
 ul li{margin-left: 15px;}
@@ -116,6 +122,8 @@ input{width: 450px;height: 40px; border-radius: 10px;margin-bottom: 10px;}
     border: solid 1px black;
 }
 
+
+
 .algum{
     background-color: whitesmoke;
     padding: 20px;
@@ -130,20 +138,34 @@ span:hover + .algum{
     height:200px;
     border-radius: 10px;
 }
-.title{font-family: 'Josefin Sans', sans-serif; font-size: 32px; color: #102442; font-weight: 600;}
+.title{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 32px; 
+    color: #102442; 
+    font-weight: 600;
+}
 .price{font-family: 'Josefin Sans', sans-serif; font-size: 24px; color: #102442; font-weight: 600;}
 .icons{width: 16px; height: 16px;}
 .payment{width: 36px; height: 36px; margin: 5px;}
 
-#manBox{
-    border-top: solid 2px black;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.4);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 5px 10px 18px gray;
+header nav div #login{
+    padding: 3%;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: var(--blue);
+    border-radius: 15px;
+    border: solid 2px black;
+    color: white;
+}
+header nav div #login:hover{
+    color: var(--blue);
+    background-color: white;
+}
+header nav div #newCount{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 main article div img{
@@ -197,3 +219,70 @@ body header nav div a button:hover{
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     -webkit-transform: scale(1.05); transform: scale(1.04);
 }
+
+body{
+    background: url(../imagens/maldivas.jpg);
+    background-size: cover;
+}
+
+main section div .infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main section a button{
+    width: 250px;
+    height: 85px;
+    background-color: var(--blue);
+    color: whitesmoke;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 32px;
+    border-radius: 35px;
+    box-shadow: inset 2px 2px 8px  rgba(0,0,0,.5);
+    transition: all 0.5s; cursor: pointer;
+}
+main section a button:hover{
+    background-color: whitesmoke;
+    color: var(--blue);
+    font-weight: bolder;
+    box-shadow: inset 4px 7px 8px rgba(64, 64, 64, 0.4);
+    -webkit-transform: scale(1.1); transform: scale(1.1);
+}
+/* Pagina de contato */
+main section form button{
+    border-radius: 15px; 
+    background-color: #102442; 
+    color:white; 
+    border: 15px; 
+    width: 200px; 
+    height: 50px; 
+    box-shadow: inset 0px 3px 6px rgba(0,0,0,0.25); 
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 22px;
+}
+main section form button:hover{
+    background-color: white;
+    color: #102442;
+    box-shadow: inset 0px 3px 6px rgba(0,0,0,0.25);
+    font-weight: bolder;
+}
+main section form input {
+    border-radius: 15px; 
+    box-shadow: inset 0px 3px 6px rgba(0,0,0,0.4); 
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 18px;
+}
+main section form input:hover {
+    box-shadow: inset 3px 6px 8px rgba(0,0,0,0.4);
+    font-weight: bold;
+}
+main section form label{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Pagina de contato */
+
