@@ -35,6 +35,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
 
   <script src="https://kit.fontawesome.com/3b9b3998a0.js" crossorigin="anonymous"></script>
+  <script src="./JS/index.js"></script>
 
   <title>Destinos</title>
 </head>
@@ -66,7 +67,7 @@
         </div>
         <div class="center">
           <a href="./src/login-Travel.html" id="login">Entrar</a><br>
-          <a href="#" id="newCount">Criar uma conta</a>
+          <a href="./src/Cadastre-se.html" id="newCount">Criar uma conta</a>
         </div>
       </div>
     </nav><br>
@@ -75,12 +76,16 @@
     </section><br>
     <hr>
   </header>
-  <main class="box">
-    <div>
-      <h1 class="h1">Aproveite as nossas ofertas!</h1>
+  <section class="container-destino"> 
+    <div id="links-viagens">
+      <button onclick="rolarPacotes()">Pacotes de viagem</button>
+      <button onclick="rolarInter()"> Viagens Internacionais</button>
+      <button onclick="rolarNacio()"> Viagens Nacionais</button>
     </div>
+  </section>
+  <main class="box">
     <section>
-      <h2>Pacotes de viagens</h2>
+      <h2 id="pacotes">Pacotes de viagens</h2>
       <div class="row">
         <div class="col-sm-4">
           <div id="divisao">
@@ -154,7 +159,7 @@
       </div>
     </section><br>
     <section>
-      <h2>Pacotes de viagens Internacionais</h2><br>
+      <h2 id="inters">Pacotes de viagens Internacionais</h2><br>
       <div class="row">
         <div class="col-sm-4">
           <div id="divisao">
@@ -222,7 +227,7 @@
       </div>
     </section><br>
     <section>
-      <h2>Pacotes de viagens Nacionais</h2><br>
+      <h2 id="nacio">Pacotes de viagens Nacionais</h2><br>
       <div class="row">
         <div class="col-sm-4">
           <div id="divisao">

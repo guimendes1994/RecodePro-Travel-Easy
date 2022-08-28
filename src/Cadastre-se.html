@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../RecodePro-Travel-Easy/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
     <!--BootStrap CDN link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -23,7 +23,7 @@
         crossorigin="anonymous"></script>
 
     <!-- link CSS -->
-    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,15 +37,14 @@
 
     <script src="https://kit.fontawesome.com/3b9b3998a0.js" crossorigin="anonymous"></script>
 
-    <title>Pagina Inicial</title>
+    <title>Contato</title>
 </head>
 
-
-<body class="container-fluid">
+<body>
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <img src="./imagens/icons/travel.png" alt="Logo Travel Easy">
+                <img src="../imagens/icons/travel.png" alt="Logo Travel Easy">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -74,44 +73,36 @@
         </nav><br>
     </header>
     <main>
-        <section>
-            <div class="row">
-                <div class="col-sm-12 infos">
-                    <div class="fadeIn">
-                        <img src="./imagens/icons/travel.png" alt="" id="logo">
-                        <h3>Travel Easy</h3>
-                        <p>A facilidade em viajar</p>
-                    </div>
-                    <div class="container-fluid">
-                        <p>
-                            Há mais de 25 anos viajando pelo mundo à fora com as melhores linhas aéreas, nos melhores
-                            hotéis. <br>
-                            Quer saber mais sobre nossa história?! Clique no botão abaixo para nos conhecer melhor!
-                        </p>
-                    </div>
-                    <br>
-                    <div>
-                        <a href="./src/Quem-Somos.html"><button>Quem Somos</button></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div>Confira nossas viagens!</div>
-        <section>
-            <article>
-                <div class="row center">
-                    <div class="col-sm-4">
-                        <a href="#"><button id="pacotes">Pacotes</button></a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="#"><button id="internacional">Internacionais</button></a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="#"><button id="nacional">Nacionais</button></a>
-                    </div>
-                </div>
-            </article>
-        </section>
+        <form>
+            <section> <h1>Cadastre-se</h1></section>
+            <section id="cadastro">
+                <label>Nome:</label>
+                <input type="text" name="nome" placeholder="Nome">
+                <label>Endereço de email:</label>
+                <input type="email" name="email" placeholder="example@gmail.com">
+                <label>CPF:</label>
+                <input type="number" name="cpf" placeholder="000.000.000-00">
+                <label>Telefone:</label>
+                <input type="tel" name="Telefone" placeholder="(DDD) 0000-0000">
+                <label>Celular:</label>
+                <input type="tel" name="celular" placeholder="(DDD) 0 0000-0000">
+                <label>Endereço</label>
+                <input type="text" name="Endereço" placeholder="Rua exemplo n 000">
+                <label>Complemento</label>
+                <input type="text" name="Complemento" placeholder="nº Apartamento, Condominio, etc">
+                <label>Bairro</label>
+                <input type="text" name="Bairro" id="" placeholder="Bairro">
+                <label>CEP</label>
+                <input type="text" name="CEP" id="" placeholder="00.000-000">
+                <label>Cidade</label>
+                <input type="text" name="Cidade" id="" placeholder="Cidade">
+                <label>Senha</label>
+                <input type="password" name="senha" placeholder="********">
+                <label>Confirme sua senha</label>
+                <input type="password" name="senha" placeholder="********"> <br>
+                <button type="submit">Cadastrar</button>
+            </section>
+        </form>
     </main>
     <footer>
         <div class="row">
@@ -171,5 +162,3 @@
         <div>Copyrigth &copy; 2022 | Developed by Guilherme Mendes</div>
       </footer>
 </body>
-
-</html>

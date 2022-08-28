@@ -9,27 +9,34 @@
 .center{text-align: center;}
 .promocao{font-size: 26px; color: black;font-family: Impact;}
 
+#formapag{font-family: cursive; font-size: 18px; color: red; font-weight: bold;}
+#easy{font-family: 'Berkshire Swash', cursive; font-size: 45px;}
+#gif{width: 100%; height: auto; border-radius: 5px;}
+#logo{width: 150px; height: auto;}
+#redondo{border-radius: 10px;}
+
+ul li{margin-left: 15px;}
+hr{border: solid 1px black;}
+textarea{width: 450px; height: 150px;border-radius: 10px;}
+p{font-family: 'Josefin Sans', sans-serif; font-size: 22px;}
+
+article{margin: 40px;}
+.boxShadow{box-shadow: 10px 10px 10px 10px grey; width: 275px; height: 275px;}
+.ctyFooter{text-align: center;font-family: 'Berkshire Swash', cursive; font-size: 28px;}
 
 .color2 {color: #102442;}
 .fonte{font-family: 'Josefin Sans', sans-serif; font-size: 20px;}
 .borderFoto{border-radius: 10px; border: solid 1px black;}
 .descricao{font-family: 'Josefin Sans', sans-serif; font-size: 12px; color: black; font-weight: bold;}
 .titulo{font-family: 'Berkshire Swash', cursive; font-size: 28px;}
-.locais{font-family: cursive; font-size: 18px; font-weight: bold; color: black;}
-.desconto{text-decoration: line-through; font-size: 12px; color: black;}
-.parcela{font-size: 12px; background-color: yellow; color: black;}
-.texto{text-align: center;font-family: 'Josefin Sans', sans-serif; font-size: 24px; margin-top: 40px;}
-.drop{border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;}
-.borderCont{border-radius: 10px;}
-.italico{font-family: cursive; font-style: italic;}
 .button{width: 150px; height: 40px; border-radius: 10px; font-family: 'Josefin Sans', sans-serif; font-size: 20px;}
+
+
 .box{
     background-color: rgba(255, 255, 255, 0.4);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    background-size: cover;
     border-radius: 10px;
-    box-shadow: 5px 10px 18px gray;
 }
 .buttn01{
     width:90%; 
@@ -47,26 +54,23 @@
     -webkit-transform: scale(1.1); 
     transform: scale(1.1);
 }
-
-
-
-/* --------- ID --------------*/
-
-#formapag{font-family: cursive; font-size: 18px; color: red; font-weight: bold;}
-#easy{font-family: 'Berkshire Swash', cursive; font-size: 45px;}
-#gif{width: 100%; height: auto; border-radius: 5px;}
-#logo{width: 150px; height: auto;}
-#redondo{border-radius: 10px;}
-
-
-/* ---------- TAGS -----------*/
-
-nav{background-color: transparent; color: black; border-radius: 5px; height: 90px; font-family: 'Josefin Sans', sans-serif; font-weight: 400; font-size: 22px;border-bottom: solid 2px black;}
-a{color: black;}
-ul li{margin-left: 15px;}
-hr{border: solid 1px black;}
-textarea{width: 450px; height: 150px;border-radius: 10px;}
-p{font-family: 'Josefin Sans', sans-serif; font-size: 22px;}
+nav{
+    background-color: transparent;
+    height: 90px;
+    border-bottom: solid 2px black;
+}
+header nav a{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+header nav a:hover{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
 footer{
     background-color: gray; 
     width: 100%; 
@@ -75,9 +79,6 @@ footer{
     text-align: center; 
     font-weight: 500;
 }
-article{margin: 40px;}
-.boxShadow{box-shadow: 10px 10px 10px 10px grey; width: 275px; height: 275px;}
-input{width: 450px;height: 40px; border-radius: 10px;margin-bottom: 10px;}
 .promo{
     width: 100%; 
     min-height: 400px;
@@ -86,31 +87,23 @@ input{width: 450px;height: 40px; border-radius: 10px;margin-bottom: 10px;}
     backdrop-filter: blur(5px);
     border-radius: 10px;
 }
-.ctyFooter{text-align: center;font-family: 'Berkshire Swash', cursive; font-size: 28px;}
-
-
-
 footer h3 {
     text-align: center;
     font-family: 'Berkshire Swash', cursive;
     font-size: 28px;
 }
-
 footer h4 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 22px;
 }
-
 footer p{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     font-weight: 500;
 }
-
 footer aside:hover{
     zoom: 200%;
 }
-
 main section #divisao{
     background-color: white;
     border: solid 1px black;
@@ -118,7 +111,6 @@ main section #divisao{
     width:350px; 
     height:auto;
 }
-
 main section #immg{
     width:350px; 
     height:200px;
@@ -209,6 +201,7 @@ main section div .infos{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 25px;
 }
 main section a button{
     width: 250px;
@@ -251,6 +244,7 @@ main section form input {
     box-shadow: inset 0px 3px 6px rgba(0,0,0,0.4); 
     font-family: 'Josefin Sans', sans-serif; 
     font-size: 18px;
+    width: 70%;
 }
 main section form input:hover {
     box-shadow: inset 3px 6px 8px rgba(0,0,0,0.4);
@@ -378,6 +372,29 @@ main section h3{
     text-align: center; 
     color: black;
 }
+main section p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+body section #links-viagens button{
+    border-radius: 15px;
+    background-color: var(--blue);
+    color: white;
+    width: 250px;
+    height: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin: 15px;
+}
+body .container-destino{
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* ======= Destinos ====== */
 main h1{
     font-family: 'Josefin Sans', sans-serif; 
@@ -423,4 +440,77 @@ main section #comprar:hover{
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     -webkit-transform: scale(1.05); transform: scale(1.04);
     box-shadow: inset 0px 3px 7px rgba(0,0,0,.5);
+}
+main form #cadastro{
+    margin: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+main form #cadastro input{
+    width: 40%;
+    height: 45px;
+    border-radius: 15px;
+    outline: 0;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 18px;
+    font-weight: 400;
+}
+main form #cadastro input:focus{
+    font-weight: bold;
+    box-shadow: inset 0px 3px 6px rgba(0,0,0,0.4); 
+}
+main form #cadastro label{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+main form h1{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 52px;
+}
+main form section button{
+    border-radius: 15px; 
+    background-color: #102442; 
+    color:white; 
+    border: 15px; 
+    width: 200px; 
+    height: 50px; 
+    box-shadow: inset 0px 3px 6px rgba(0,0,0,0.25); 
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 22px;
+}
+main form section button:hover{
+    background-color: white;
+    color: var(--blue);
+    font-weight: 600;
+}
+/* ====== Efeitos ======== */
+
+/*  ===== Efeito pagina Inicial====== */
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+
+.fadeIn {
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
 }
