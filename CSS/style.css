@@ -68,7 +68,6 @@ hr{border: solid 1px black;}
 textarea{width: 450px; height: 150px;border-radius: 10px;}
 p{font-family: 'Josefin Sans', sans-serif; font-size: 22px;}
 footer{
-    margin-top: 15px; 
     background-color: gray; 
     width: 100%; 
     padding-top: 10px; 
@@ -87,22 +86,30 @@ input{width: 450px;height: 40px; border-radius: 10px;margin-bottom: 10px;}
     backdrop-filter: blur(5px);
     border-radius: 10px;
 }
-
-.imagem3{transition: all 0.5s; cursor: pointer;}
-.imagem3:hover{-webkit-transform: scale(1.1); transform: scale(1.1);}
-.imagem4{
-    transition: all 0.5s;
-    cursor: pointer;
-    border-radius: 10px; 
-    width:350px; 
-    height:auto;
-}
-.imagem4:hover{
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    -webkit-transform: scale(1.05); transform: scale(1.04);
-}
 .ctyFooter{text-align: center;font-family: 'Berkshire Swash', cursive; font-size: 28px;}
+
+
+
+footer h3 {
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 28px;
+}
+
+footer h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+}
+
+footer p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer aside:hover{
+    zoom: 200%;
+}
 
 main section #divisao{
     background-color: white;
@@ -112,7 +119,7 @@ main section #divisao{
     height:auto;
 }
 
-#immg{
+main section #immg{
     width:350px; 
     height:200px;
     border-radius: 10px;
@@ -123,10 +130,11 @@ main section #divisao{
     color: #102442; 
     font-weight: 600;
 }
-.price{font-family: 'Josefin Sans', sans-serif; font-size: 24px; color: #102442; font-weight: 600;}
-.icons{width: 16px; height: 16px;}
-.payment{width: 36px; height: 36px; margin: 5px;}
-
+main section #price{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 24px; color: #102442; 
+    font-weight: 600;
+}
 header nav div #login{
     padding: 3%;
     font-family: 'Berkshire Swash', cursive;
@@ -146,7 +154,6 @@ header nav div #newCount{
     font-size: 16px;
     font-weight: bold;
 }
-
 main article div img{
     border-radius: 10%; 
     width: 100%; 
@@ -154,7 +161,6 @@ main article div img{
     box-shadow: 5px 10px 18px black;
     border: solid 4px black;
 }
-
 main section div #Foto{
     border-radius: 10%; 
     width: 100%; 
@@ -162,7 +168,6 @@ main section div #Foto{
     box-shadow: 5px 10px 18px black;
     border: solid 4px black;
 }
-
 main #mainBox{
     border-top: solid 2px black;
     padding: 20px;
@@ -173,37 +178,31 @@ main #mainBox{
     border-radius: 10px;
     box-shadow: 5px 10px 18px gray;
 }
-
 footer div .cityFooter{
     text-align: center;
     font-family: 'Berkshire Swash', cursive; 
     font-size: 28px;
 }
-
 footer div span{
     font-family: 'Josefin Sans', sans-serif; 
     font-size: 18px;
     font-weight: 500;
 }
-
 body header nav div a button{
     transition: all 0.5s; 
     cursor: pointer;
     width: 130px;
     height: 40px;
 }
-
 body header nav div a button:hover{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     -webkit-transform: scale(1.05); transform: scale(1.04);
 }
-
 body{
     background: url(../imagens/maldivas.jpg);
     background-size: cover;
 }
-
 main section div .infos{
     display: flex;
     flex-direction: column;
@@ -211,7 +210,6 @@ main section div .infos{
     align-items: center;
     text-align: center;
 }
-
 main section a button{
     width: 250px;
     height: 85px;
@@ -273,7 +271,6 @@ body .login-container {
     flex-direction: column;
     align-items: center;
 }
-
 body main #login{
     padding: 2%;
     background-color: rgba(255, 255, 255, 0.4);
@@ -286,7 +283,6 @@ body main #login{
     flex-direction: column;
     align-items: center;
 }
-
 body main form .inputs-container{
     margin-top: 10%;
     width: 100%;
@@ -295,7 +291,6 @@ body main form .inputs-container{
     flex-direction: column;
     align-items: center;
 }
-
 body main form .inputs-container input{
     width: 90%;
     height: 45px;
@@ -325,18 +320,16 @@ body main form .password-container i{
     position: absolute;
     right: 45px;
 } 
-
 body main form .password-container #eye{
     display: nome;
 }
-
 body main form .login-Travel{
     font-family: 'Berkshire Swash', cursive; 
     font-size: 68px;
 }
 
 /* ===== Botão index ======== */
-article section div #pacotes{
+section article div #pacotes{
     background: url(../imagens/mundi.jpg);
     width:90%; 
     height: 125px; 
@@ -349,7 +342,7 @@ article section div #pacotes{
     transition: all 0.5s; 
     cursor: pointer;
 }
-article section div #internacional{
+section article div #internacional{
     background: url(../imagens/Paris\ Pexels.jpg);
     width:90%; 
     height: 125px; 
@@ -362,7 +355,7 @@ article section div #internacional{
     transition: all 0.5s; 
     cursor: pointer;
 }
-article section div #nacional{
+section article div #nacional{
     background: url(../imagens/rio.jpg);
     width:90%; 
     height: 125px; 
@@ -375,7 +368,7 @@ article section div #nacional{
     transition: all 0.5s; 
     cursor: pointer;
 }
-article section div button:hover{
+section article div button:hover{
     -webkit-transform: scale(1.1); 
     transform: scale(1.1);
 }
@@ -414,10 +407,20 @@ main section #comprar{
     height: 45px;
     background-color: var(--blue);
     color: white;
-    margin-left: 20px;
+    margin-left: 15px;
     border-radius: 15px;
     font-size: 22px;
     font-family: 'Josefin Sans', sans-serif;
     cursor: pointer;
     margin-top: 5px;
+    transition: all 0.5s;
+}
+main section #comprar:hover{
+    background-color: white;
+    color: var(--blue);
+    font-weight: bold;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: scale(1.05); transform: scale(1.04);
+    box-shadow: inset 0px 3px 7px rgba(0,0,0,.5);
 }
