@@ -36,6 +36,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/3b9b3998a0.js" crossorigin="anonymous"></script>
+    <script src="../JS/index.js"></script>
 
     <title>Login-Travel-Easy</title>
 </head>
@@ -66,8 +67,8 @@
                     </ul>
                 </div>
                 <div class="center">
-                    <a href="./src/login-Travel.html" id="login">Entrar</a><br>
-                    <a href="./src/Cadastre-se.html" id="newCount">Criar uma conta</a>
+                    <a href="./login-Travel.html" id="login">Entrar</a><br>
+                    <a href="./Cadastre-se.html" id="newCount">Criar uma conta</a>
                 </div>
             </div>
         </nav><br>
@@ -80,8 +81,8 @@
 
                 <div class="password-container">
                     <input type="password" id="field-password" class="field-password" placeholder="**********">
-                    <i class="fa-solid fa-eye" id="eye"></i>
-                    <i class="fa-solid fa-eye-slash" id="eye-slash"></i>
+                    <i class="fa-solid fa-eye" id="eye" onclick="showPassword()"></i>
+                    <i class="fa-solid fa-eye-slash" id="eye-slash" onclick="showPassword()"></i>
                 </div>
             </section>
             <section class="password-infos">
@@ -98,14 +99,14 @@
             <section class="links-container">
                 <span>Ou entre com:</span>
                 <aside>
-                    <a href="#"><i class="fa-brands fa-google"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-google google"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f facebook"></i></a>
                 </aside>
             </section>
-            <footer>
+            <footer class="footer-login">
                 <hr>
-                <span>Ainda não tem uma conta? <a href="#">Cadastre-se</a></span>
+                <span>Ainda não tem uma conta? <a href="./Cadastre-se.html">Cadastre-se</a></span>
             </footer>
         </form>
     </main>
